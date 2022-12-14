@@ -34,7 +34,7 @@ describe('Creador de Particulares', function () {
         observaciones : 'Campo de observaciones lorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsum '
 
     }
-    it('crea un particular', function () {
+    it('Create User Particulares', function () {
         cy.wait(1000)
         cy.visit('/mesa-entrada/particulares')
 

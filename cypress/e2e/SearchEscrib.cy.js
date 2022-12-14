@@ -17,7 +17,7 @@ describe('leer un escribano en particular', function () {
     }
 
 
-    it('leer un escribano en particular', function () {
+    it('Search and check Escribanos at the Escribanos List', function () {
         listEscrib.open
         listEscrib.search(dataTest.nombre)
         listEscrib.checkName(dataTest.nombre)

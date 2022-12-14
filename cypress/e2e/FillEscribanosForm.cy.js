@@ -36,7 +36,7 @@ describe('Creador de Escribanos', function () {
         fechaEntrega: '2022-10-09',
 
     }
-    it('Ceat user type 2', function () {
+    it('Fill and Subbmit Escribanos Form', function () {
         cy.wait(1000)
         cy.visit('/afiliados/crear-escribano');
         

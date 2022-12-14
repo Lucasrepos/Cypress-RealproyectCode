@@ -12,7 +12,7 @@ describe('Creador Usuario', function () {
     nombre: getNombre(),
     apellido: getApellido()
     }
-    it('crear un usuario', function () {
+    it('Create a Simple User', function () {
         RegistrationPage.open()
         RegistrationPage.enterFirstName(UserInfo.nombre)
         RegistrationPage.enterLastName(UserInfo.apellido)
