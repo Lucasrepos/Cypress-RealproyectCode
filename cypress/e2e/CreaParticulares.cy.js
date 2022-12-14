@@ -36,7 +36,7 @@ describe('Creador de Particulares', function () {
     }
     it('crea un particular', function () {
         cy.wait(1000)
-        cy.visit('http://190.7.20.153:8081/mesa-entrada/particulares')
+        cy.visit('/mesa-entrada/particulares')
 
         particulares.particularesData(Generate.nombre, Generate.apellido, Generate.DNI, Generate.CUIT,userInfo.razonSocial, 
         userInfo.Email, userInfo.telefono, userInfo.celular, userInfo.calle, userInfo.altura, userInfo.codigoPostal, 

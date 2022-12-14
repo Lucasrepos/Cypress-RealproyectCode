@@ -9,7 +9,7 @@ describe('leer un escribano en particular', function () {
         logueaPage.searchUsername('xxxxxxx@xxxxxxx')
         logueaPage.searchPassInput('xxxxxxxxx')
         cy.wait(1000)
-        cy.visit('http://XXXXXXXXX:8081/afiliados')
+        cy.visit('/afiliados')
     })
     const dataTest = {
         nombre : 'Campos',
