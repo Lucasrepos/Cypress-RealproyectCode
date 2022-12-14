@@ -1,0 +1,6 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "hello@cypress.io",
+  "body": "Fixtures are a great way to mock data for responses to routes",
+  "typeDNI": "[data-value=.MuiPaper-root.Mui-expanded > .MuiCollapse-root > .MuiCollapse-wrapper > .MuiCollapse-wrapperInner > #panel1a-content > .MuiAccordionDetails-root > form > [style="max-height: 50vh; overflow: auto;"] > :nth-child(2) > :nth-child(2) > .MuiFormControl-root]"
+}
