@@ -27,7 +27,6 @@ describe('Create a Memo', function () {
         CreateNote.SelectApellido
         CreateNote.subbmit
         CreateNote.assert(dataTest.Message1, dataTest.Message2)
-        CreateNote.
 
 
     })
